@@ -14,7 +14,7 @@ fi
 if [ -z $1 ] || [ $1 != "test" ]
 then
 	cd /tmp
-	if ! wget --timeout=30 -q -O master.zip https://github.com/wiedehopf/dump1090-retro-html/archive/master.zip || ! unzip -q -o master.zip
+	if ! wget --timeout=30 -q -O master.zip https://github.com/adsbfi/dump1090-retro-html/archive/master.zip || ! unzip -q -o master.zip
 	then
 		echo "------------------"
 		echo "Unable to download files, exiting! (Maybe try again?)"
